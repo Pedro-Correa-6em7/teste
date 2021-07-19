@@ -1,0 +1,399 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+/* Index*/
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caixa{
+    width: 80%;
+    position: absolute;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:#9ee7c2;
+    height: 20%;
+}
+
+.logo{
+    position: absolute;
+    top: 23px;
+    left: 336px;
+    width: 180px;
+}
+
+.titulo{
+    font-weight: bold;
+    font-size: 43px;
+    color: rgb(31, 70, 55);
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    top: 50%;
+}
+
+nav{
+    position: absolute;
+    right: 20%;
+    top: 40%;
+}
+
+.itens-lista{
+    display: inline-block;
+    padding-left: 40px;
+    font-size: 24px;
+    
+}
+
+.itens-lista a{
+    text-decoration: none;
+    color: #054A29;
+    font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.box-corpo{
+    height: 500px;
+    width: 1500px;
+    text-align: center;
+    margin-left: 110px;
+}
+
+.corpo-index{
+    width: 80%;
+    position: absolute;
+    padding-left: 10%;
+    padding-right: 10%; 
+    top: 350px; 
+}
+
+.slogan{
+    display: inline-block;
+    font-size: 35px;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.slogan-preto{
+    color: #054A29;
+}
+
+.slogan-verde{
+    color: #4c974a;
+}
+
+.img-coracao{
+    position: absolute;
+    top: 45%;
+    left: 15%;
+}
+
+.texto{
+    position: absolute;
+    right: 25%;
+    width: 395px;
+    text-align: justify;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 3px;
+    font-size: 26px;
+    top: 30%;
+}
+
+.destaque-texto{
+    color: #508a4f;
+}
+
+.lista-especialidades{
+    margin-right: 7%;
+}
+
+.especialidades{
+    width: 210px;
+    text-align: center;
+    border: 1px solid #dbdbdb;
+    border-radius: 15px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 8%;
+    margin-bottom: 10px;
+    background-color: rgb(219, 219, 219);
+}
+
+.titulo-especialidades{
+    font-weight: bold;
+    font-size: 22px;
+    padding: 7px;
+    font-family: 'Karla', Arial, Helvetica, sans-serif;
+}
+
+.texto-especialidades{
+    font-size: 19px;
+    color: #747474;
+}
+
+.titulo-mapa{
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Karla', Arial, Helvetica, sans-serif;
+}
+
+.mapa{
+    margin-top: 10px;
+    position: absolute;
+    left: 10%;
+    width: 80%;
+}
+
+.caixa-footer{
+    width: 80%;
+    position: absolute;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 85%;
+    padding-bottom: 50px;
+    background-color:#9ee7c2;
+    height: 20%;
+}
+
+.caixa-titulo-footer{
+    margin-top: 4%;
+}
+
+.titulo-footer{
+    font-family: 'Karla', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-top: 20px;
+    margin-left: 37px;
+}
+
+.sloggan{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.lista-footer{
+    position: absolute;
+    left: 800px;
+    top: 85px;
+}
+
+.itens-lista-footer{
+    display: flex;
+    align-items: center;
+}
+
+.img-footer{
+    width: 20px;
+    margin-right: 6px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.logo-footer{
+    width: 180px;
+    position: absolute;
+    right: 70px;
+    top: 60px;
+    padding: 10px;
+}
+
+/*Contatos*/
+
+.corpo-contatos{
+    width: 80%;
+    position: absolute;
+    padding-left: 10%;
+    padding-right: 10%; 
+    top: 230px;     
+}
+
+.caixa-contatos{
+    width: 80%;
+    position: absolute;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:#9ee7c2;
+    height: 8%;
+}
+
+.caixa-inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: center;
+}
+
+.input-contatos{
+    width: 500px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding: 8px;
+    background-color: #d5ddcf;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+}
+
+.titulo-formulario{
+    font-size: 40px;
+    font-family: 'Karla', Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(31, 70, 55);
+    font-weight: bold;
+
+}
+
+textarea{
+    height: 150px;
+}
+
+.enviar{
+    width: 250px;
+    font-size: 30px;
+    background-color: #b6d49f;
+    border: 1px solid #b6d49f;
+    border-radius: 15px;
+    color: rgb(31, 70, 55);
+}
+
+.caixa-footer-contatos{
+    width: 80%;
+    position: absolute;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 780px;
+    padding-bottom: 50px;
+    background-color:#9ee7c2;
+    height: 20%;    
+}
+
+/*sobre*/
+
+.box{
+    width: 80%;
+    background-color: #9ee7c3;
+    position: absolute;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 25px;
+    height: 10%;
+}
+
+.logo-sobre{
+   position: absolute;
+   width: 125px;
+   top: 7px;
+   left: 40px
+}
+
+.missao{
+   background-color: white;
+   position: absolute;
+   top: 200px;
+   width: 50%;
+   height: 350px;   
+}
+
+.historia{
+   background-color: #799e81ea;
+   position: absolute;
+   top: 178px;
+   width: 50%;
+   height: 390px; 
+   right: 0%;
+}
+
+.missao2{
+   position: absolute;
+   left: 30px;
+   top: 35px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 30px;
+}
+
+.texto-missao{
+   position: absolute;
+   left: 30px;
+   right: 30px;
+   top: 110px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   text-align: justify;
+}
+
+.historia2{
+   position: absolute;
+   left: 30px;
+   top: 35px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 30px;
+   color: white;
+}
+
+.texto-historia{
+   position: absolute;
+   left: 30px;
+   right: 30px;
+   top: 110px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   text-align: justify;
+}
+
+.lista-diferenciais{
+    position: absolute;
+    top: 58%;
+    background-color: #cccccc;
+    width: 100%;
+    height: 400px;
+    
+}  
+
+.diferenciais{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+
+.itens-lista-diferenciais{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 180px;
+    background-color: #799e81ea;
+    border: 1px solid #799e81ea;
+    border-radius: 10px;
+    height: 150px;
+    width: 250px;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.titulo-diferenciais{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.caixa-footer-sobre{
+    width: 80%;
+    position: absolute;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 50%;
+    padding-bottom: 50px;
+    background-color:#9ee7c2;
+    height: 20%;    
+}

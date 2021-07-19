@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="reset.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>Contatos</title>
+</head>
+<body>
+    <header>
+        <div class="caixa-contatos">
+            <h1 class="titulo">Clínica</h1>
+            <h2><img class="logo" src="logo.png"></h2>
+            <nav>
+                <ul class="lista">
+                    <li class="itens-lista"><a href="index.html">Início</a></li>
+                    <li class="itens-lista"><a href="sobre.html">Sobre</a></li>
+                    <li class="itens-lista"><a href="quem-somos.html">Quem Somos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="corpo-contatos">
+
+        <h1 class="titulo-formulario">Contate-nos</h1>
+
+        <form class="caixa-inputs" method="POST" action="./email.php" >
+
+            <input class="input-contatos" required name="nome" placeholder="Nome">
+            <input class="input-contatos" required name="phone" placeholder="Celular">
+            <input class="input-contatos" required name="email" placeholder="Email">
+            <textarea class="input-contatos" name="mensagem" placeholder="Digite sua mensagem aqui."></textarea>
+            <button class="enviar">Enviar</button>
+        
+        </form>
+    </section>
+    <footer>
+        <div class="caixa-footer-contatos">
+            <div class="caixa-titulo-footer">
+                <h1 class="titulo-footer">Clínica Cori</h1>
+                <h2 class="sloggan">Ajudando a tornar a vida melhor</h2>
+            </div>
+            <div class="lista-footer">
+                <ul>
+                    <li class="itens-lista-footer">
+                        <img src="telefone.png" alt="telefone" class="img-footer"> 
+                        <h1>(11) 2959 4606</h1>                 
+                    </li>
+                    <li class="itens-lista-footer">
+                        <img src="wtts.png" alt="whatsapp" class="img-footer">
+                        <h1>(11) 97505-0478</h1>                 
+                    </li>
+                    <li class="itens-lista-footer">
+                        <img src="email.png" alt="email" class="img-footer">
+                        <h1>clinicacori@clinicacori.com.br</h1>                 
+                    </li>
+                    <li class="itens-lista-footer">
+                        <img src="localizacao.png" alt="localização" class="img-footer">
+                        <h1>R. Condessa Siciliano, 55 - Jardim São Paulo</h1>                 
+                    </li>
+                </ul>
+            </div>
+            <img src="logo.png" class="logo-footer">
+        </div>
+    </footer>
+</body>
+</html>
